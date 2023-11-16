@@ -10,10 +10,10 @@ terraform {
   # Adding Backend as S3 for Remote State Storage
   backend "s3" {
     bucket = "terraform-bereziuk"
-    key    = "dev/terraform.tfstate"
+    key    = "statecommands/terraform.tfstate"
     region = "us-east-1" 
     # For State Locking
-    dynamodb_table = "terraform-dev-state-table"    
+    #dynamodb_table = "terraform-dev-state-table"    
     
   }
 }
