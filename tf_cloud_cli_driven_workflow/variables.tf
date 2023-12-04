@@ -16,5 +16,7 @@ variable "bucket_tags" {
   default     = {  
   Terraform   = "true"
   Environment = "dev"
+  newtag      = "new tag for test purpose"
+  newtag1     = "tag 1"
   }
 }
