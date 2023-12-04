@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "Name of s3 bucket"
   type        = string
-  default = "mybucket-from-child-module"
+  default = "mybucket-from-private-cloud-module"
 }
 
 variable "bucket_tags" {
