@@ -1,0 +1,58 @@
+2023-12-07T01:11:58.895+0200 [INFO]  Terraform version: 1.6.4
+2023-12-07T01:11:58.895+0200 [DEBUG] using github.com/hashicorp/go-tfe v1.36.0
+2023-12-07T01:11:58.895+0200 [DEBUG] using github.com/hashicorp/hcl/v2 v2.19.1
+2023-12-07T01:11:58.895+0200 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2023-12-07T01:11:58.895+0200 [DEBUG] using github.com/zclconf/go-cty v1.14.1
+2023-12-07T01:11:58.895+0200 [INFO]  Go runtime version: go1.21.3
+2023-12-07T01:11:58.895+0200 [INFO]  CLI args: []string{"terraform", "init"}
+2023-12-07T01:11:58.895+0200 [TRACE] Stdout is a terminal of width 188
+2023-12-07T01:11:58.895+0200 [TRACE] Stderr is a terminal of width 188
+2023-12-07T01:11:58.895+0200 [TRACE] Stdin is a terminal
+2023-12-07T01:11:58.895+0200 [DEBUG] Attempting to open CLI config file: /home/yevhenii/.terraformrc
+2023-12-07T01:11:58.895+0200 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2023-12-07T01:11:58.895+0200 [INFO]  Loading CLI configuration from /home/yevhenii/.terraform.d/credentials.tfrc.json
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /home/yevhenii/.terraform.d/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /home/yevhenii/.local/share/terraform/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /home/yevhenii/snap/code/146/.local/share/terraform/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /home/yevhenii/snap/code/146/terraform/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /snap/code/146/usr/share/terraform/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /usr/share/ubuntu/terraform/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2023-12-07T01:11:58.895+0200 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2023-12-07T01:11:58.898+0200 [INFO]  CLI command args: []string{"init"}
+2023-12-07T01:11:58.900+0200 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2023-12-07T01:11:58.900+0200 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2023-12-07T01:11:58.900+0200 [DEBUG] New state was assigned lineage "da09bea3-6703-80bd-6249-61e9a2a9618c"
+2023-12-07T01:11:58.900+0200 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2023-12-07T01:11:58.900+0200 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2023-12-07T01:11:58.900+0200 [DEBUG] checking for provisioner in "."
+2023-12-07T01:11:58.907+0200 [DEBUG] checking for provisioner in "/usr/bin"
+2023-12-07T01:11:58.907+0200 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2023-12-07T01:11:58.907+0200 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2023-12-07T01:11:58.907+0200 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2023-12-07T01:11:58.907+0200 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2023-12-07T01:11:58.907+0200 [TRACE] statemgr.Filesystem: read nil snapshot
+2023-12-07T01:11:58.908+0200 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2023-12-07T01:11:58.908+0200 [TRACE] HTTP client GET request to https://registry.terraform.io/.well-known/terraform.json
+2023-12-07T01:11:59.088+0200 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2023-12-07T01:11:59.088+0200 [TRACE] HTTP client GET request to https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2023-12-07T01:11:59.154+0200 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-12-07T01:11:59.155+0200 [TRACE] getproviders.SearchLocalDirectory: failed to resolve symlinks for .terraform/providers: lstat .terraform: no such file or directory
+2023-12-07T01:11:59.155+0200 [TRACE] providercache.fillMetaCache: error while scanning directory .terraform/providers: cannot search .terraform/providers: lstat .terraform/providers: no such file or directory
+2023-12-07T01:11:59.155+0200 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/4.67.0/download/linux/amd64
+2023-12-07T01:11:59.155+0200 [TRACE] HTTP client GET request to https://registry.terraform.io/v1/providers/hashicorp/aws/4.67.0/download/linux/amd64
+2023-12-07T01:11:59.215+0200 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-aws/4.67.0/terraform-provider-aws_4.67.0_SHA256SUMS
+2023-12-07T01:11:59.215+0200 [TRACE] HTTP client GET request to https://releases.hashicorp.com/terraform-provider-aws/4.67.0/terraform-provider-aws_4.67.0_SHA256SUMS
+2023-12-07T01:11:59.305+0200 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-aws/4.67.0/terraform-provider-aws_4.67.0_SHA256SUMS.72D7468F.sig
+2023-12-07T01:11:59.305+0200 [TRACE] HTTP client GET request to https://releases.hashicorp.com/terraform-provider-aws/4.67.0/terraform-provider-aws_4.67.0_SHA256SUMS.72D7468F.sig
+2023-12-07T01:11:59.326+0200 [TRACE] providercache.Dir.InstallPackage: installing registry.terraform.io/hashicorp/aws v4.67.0 from https://releases.hashicorp.com/terraform-provider-aws/4.67.0/terraform-provider-aws_4.67.0_linux_amd64.zip
+2023-12-07T01:11:59.326+0200 [TRACE] HTTP client GET request to https://releases.hashicorp.com/terraform-provider-aws/4.67.0/terraform-provider-aws_4.67.0_linux_amd64.zip
+2023-12-07T01:12:06.705+0200 [DEBUG] Provider signed by 34365D9472D7468F HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2023-12-07T01:12:08.532+0200 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-12-07T01:12:08.532+0200 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v4.67.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0/linux_amd64
+2023-12-07T01:12:08.532+0200 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 4.67.0
